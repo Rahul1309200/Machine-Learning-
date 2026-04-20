@@ -17,3 +17,14 @@ git switch <branchname> -> switch to branch
 git merge <branchname> -> merge the branch to the current branch
 git log --oneline ---graph -> Visualize your branch history in terminal
 
+
+## (Fixing Mistakes)
+
+git stash ->Temporarily hides your uncommited changes
+git diff -> show line-by line diff betweeen your current file and last commit
+git checkout --<filename> -> discard changes in the specific file and revert it to the last commit
+git reset --soft HEAD~1: Undoes your last commit but keeps your work in the staging area (great for fixing a typo in a commit message)
+
+
+## Advance
+
