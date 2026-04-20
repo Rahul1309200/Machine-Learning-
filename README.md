@@ -16,3 +16,5 @@ git checkout -b <branchname> -> creates a new branch and switch to it as well
 git switch <branchname> -> switch to branch
 git merge <branchname> -> merge the branch to the current branch
 git log --oneline ---graph -> Visualize your branch history in terminal
+
+<!-- adding change for My-Branch -->
