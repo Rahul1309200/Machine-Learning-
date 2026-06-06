@@ -26,5 +26,4 @@ git checkout --<filename> -> discard changes in the specific file and revert it 
 git reset --soft HEAD~1: Undoes your last commit but keeps your work in the staging area (great for fixing a typo in a commit message)
 
 
-## Advance
 
