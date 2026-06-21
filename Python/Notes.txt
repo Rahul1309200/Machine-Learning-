@@ -1,0 +1,15 @@
+Mutable objects (list, dict , Any object also) → behaves like reference
+Immutable objects (int, str) → behaves like value
+
+Mutation (.append(), [0] = x) → affects original 
+Reassignment (lst = [new]) → does NOT affect original 
+
+def mutate(lst):
+    lst.append(99)    # ✅ modifies same object /same for any object as well
+
+def reassign(lst):
+    lst = [10, 20]    # ❌ points to new object, original untouched
+
+a = [1, 2, 3]
+mutate(a)    # a = [1, 2, 3, 99]
+reassign(a)  # a = [1, 2, 3, 99] — unchanged
